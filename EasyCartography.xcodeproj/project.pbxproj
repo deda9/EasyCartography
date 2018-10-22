@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5DC6372DAF74F3C9EBCAD7 /* Pods_EasyCartographyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C235466E340D4017B89456A /* Pods_EasyCartographyTests.framework */; };
+		45EF57682644F8AD8AF7C197 /* Pods_EasyCartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279643F9A91715B9C0F2D502 /* Pods_EasyCartography.framework */; };
+		55A57CD8217E1AA600408EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57CD7217E1AA600408EB4 /* AppDelegate.swift */; };
+		55A57CDA217E1AA600408EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57CD9217E1AA600408EB4 /* ViewController.swift */; };
+		55A57CDD217E1AA600408EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A57CDB217E1AA600408EB4 /* Main.storyboard */; };
+		55A57CDF217E1AA900408EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A57CDE217E1AA900408EB4 /* Assets.xcassets */; };
+		55A57CE2217E1AA900408EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A57CE0217E1AA900408EB4 /* LaunchScreen.storyboard */; };
+		55A57CED217E1AA900408EB4 /* EasyCartographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57CEC217E1AA900408EB4 /* EasyCartographyTests.swift */; };
+		55A57CF8217E1AA900408EB4 /* EasyCartographyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57CF7217E1AA900408EB4 /* EasyCartographyUITests.swift */; };
+		55A57D09217E1B4A00408EB4 /* UIView+EasyCartography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D08217E1B4A00408EB4 /* UIView+EasyCartography.swift */; };
+		55A57D0B217E1B9F00408EB4 /* ViewConstraintProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D0A217E1B9F00408EB4 /* ViewConstraintProtocol.swift */; };
+		55A57D0D217E1C7200408EB4 /* ViewConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D0C217E1C7200408EB4 /* ViewConstraint.swift */; };
+		55A57D0F217E1DC200408EB4 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D0E217E1DC200408EB4 /* Center.swift */; };
+		55A57D11217E207200408EB4 /* Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D10217E207200408EB4 /* Left.swift */; };
+		55A57D13217E20A600408EB4 /* Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D12217E20A600408EB4 /* Right.swift */; };
+		55A57D15217E20D900408EB4 /* Bottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D14217E20D900408EB4 /* Bottom.swift */; };
+		55A57D17217E20F300408EB4 /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D16217E20F300408EB4 /* Top.swift */; };
+		55A57D19217E211100408EB4 /* BottomTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D18217E211100408EB4 /* BottomTop.swift */; };
+		55A57D1B217E211A00408EB4 /* TopBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D1A217E211A00408EB4 /* TopBottom.swift */; };
+		55A57D1D217E212000408EB4 /* LeftRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D1C217E212000408EB4 /* LeftRight.swift */; };
+		55A57D1F217E212600408EB4 /* RightLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D1E217E212600408EB4 /* RightLeft.swift */; };
+		55A57D21217E23A800408EB4 /* Width.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D20217E23A800408EB4 /* Width.swift */; };
+		55A57D23217E23B000408EB4 /* Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A57D22217E23B000408EB4 /* Height.swift */; };
+		642C99BEEAEA11577D3E6B10 /* Pods_EasyCartographyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC7C39099C15D32A9637AA /* Pods_EasyCartographyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A57CE9217E1AA900408EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A57CCC217E1AA600408EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A57CD3217E1AA600408EB4;
+			remoteInfo = EasyCartography;
+		};
+		55A57CF4217E1AA900408EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A57CCC217E1AA600408EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A57CD3217E1AA600408EB4;
+			remoteInfo = EasyCartography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0041EF1370FB731FE4D6FC5E /* Pods-EasyCartographyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartographyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartographyTests/Pods-EasyCartographyTests.release.xcconfig"; sourceTree = "<group>"; };
+		090545015B5533179B3B4008 /* Pods-EasyCartographyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartographyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartographyTests/Pods-EasyCartographyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		279643F9A91715B9C0F2D502 /* Pods_EasyCartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyCartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2ADDD80D3831C9227FEFCE /* Pods-EasyCartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartography.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartography/Pods-EasyCartography.release.xcconfig"; sourceTree = "<group>"; };
+		43FC7C39099C15D32A9637AA /* Pods_EasyCartographyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyCartographyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446C817A8176E337291C5EAD /* Pods-EasyCartographyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartographyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartographyUITests/Pods-EasyCartographyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55A57CD4217E1AA600408EB4 /* EasyCartography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCartography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A57CD7217E1AA600408EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55A57CD9217E1AA600408EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55A57CDC217E1AA600408EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A57CDE217E1AA900408EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A57CE1217E1AA900408EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A57CE3217E1AA900408EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A57CE8217E1AA900408EB4 /* EasyCartographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCartographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A57CEC217E1AA900408EB4 /* EasyCartographyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCartographyTests.swift; sourceTree = "<group>"; };
+		55A57CEE217E1AA900408EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A57CF3217E1AA900408EB4 /* EasyCartographyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCartographyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A57CF7217E1AA900408EB4 /* EasyCartographyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyCartographyUITests.swift; sourceTree = "<group>"; };
+		55A57CF9217E1AA900408EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A57D08217E1B4A00408EB4 /* UIView+EasyCartography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+EasyCartography.swift"; sourceTree = "<group>"; };
+		55A57D0A217E1B9F00408EB4 /* ViewConstraintProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstraintProtocol.swift; sourceTree = "<group>"; };
+		55A57D0C217E1C7200408EB4 /* ViewConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstraint.swift; sourceTree = "<group>"; };
+		55A57D0E217E1DC200408EB4 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		55A57D10217E207200408EB4 /* Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left.swift; sourceTree = "<group>"; };
+		55A57D12217E20A600408EB4 /* Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Right.swift; sourceTree = "<group>"; };
+		55A57D14217E20D900408EB4 /* Bottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottom.swift; sourceTree = "<group>"; };
+		55A57D16217E20F300408EB4 /* Top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top.swift; sourceTree = "<group>"; };
+		55A57D18217E211100408EB4 /* BottomTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTop.swift; sourceTree = "<group>"; };
+		55A57D1A217E211A00408EB4 /* TopBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBottom.swift; sourceTree = "<group>"; };
+		55A57D1C217E212000408EB4 /* LeftRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRight.swift; sourceTree = "<group>"; };
+		55A57D1E217E212600408EB4 /* RightLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightLeft.swift; sourceTree = "<group>"; };
+		55A57D20217E23A800408EB4 /* Width.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Width.swift; sourceTree = "<group>"; };
+		55A57D22217E23B000408EB4 /* Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Height.swift; sourceTree = "<group>"; };
+		61DB6A52447A95CD78C185B7 /* Pods-EasyCartographyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartographyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartographyUITests/Pods-EasyCartographyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C235466E340D4017B89456A /* Pods_EasyCartographyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyCartographyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9792841A9D3A32625D9858D /* Pods-EasyCartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCartography.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCartography/Pods-EasyCartography.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A57CD1217E1AA600408EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF57682644F8AD8AF7C197 /* Pods_EasyCartography.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CE5217E1AA900408EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5DC6372DAF74F3C9EBCAD7 /* Pods_EasyCartographyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CF0217E1AA900408EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642C99BEEAEA11577D3E6B10 /* Pods_EasyCartographyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A57CCB217E1AA600408EB4 = {
+			isa = PBXGroup;
+			children = (
+				55A57CD6217E1AA600408EB4 /* EasyCartography */,
+				55A57CEB217E1AA900408EB4 /* EasyCartographyTests */,
+				55A57CF6217E1AA900408EB4 /* EasyCartographyUITests */,
+				55A57CD5217E1AA600408EB4 /* Products */,
+				EC17153DF930FA2203C916D6 /* Pods */,
+				E470D3FE289D6F2A5A769690 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55A57CD5217E1AA600408EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A57CD4217E1AA600408EB4 /* EasyCartography.app */,
+				55A57CE8217E1AA900408EB4 /* EasyCartographyTests.xctest */,
+				55A57CF3217E1AA900408EB4 /* EasyCartographyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A57CD6217E1AA600408EB4 /* EasyCartography */ = {
+			isa = PBXGroup;
+			children = (
+				55A57D07217E1B3100408EB4 /* Source */,
+				55A57CD7217E1AA600408EB4 /* AppDelegate.swift */,
+				55A57CD9217E1AA600408EB4 /* ViewController.swift */,
+				55A57CDB217E1AA600408EB4 /* Main.storyboard */,
+				55A57CDE217E1AA900408EB4 /* Assets.xcassets */,
+				55A57CE0217E1AA900408EB4 /* LaunchScreen.storyboard */,
+				55A57CE3217E1AA900408EB4 /* Info.plist */,
+			);
+			path = EasyCartography;
+			sourceTree = "<group>";
+		};
+		55A57CEB217E1AA900408EB4 /* EasyCartographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A57CEC217E1AA900408EB4 /* EasyCartographyTests.swift */,
+				55A57CEE217E1AA900408EB4 /* Info.plist */,
+			);
+			path = EasyCartographyTests;
+			sourceTree = "<group>";
+		};
+		55A57CF6217E1AA900408EB4 /* EasyCartographyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55A57CF7217E1AA900408EB4 /* EasyCartographyUITests.swift */,
+				55A57CF9217E1AA900408EB4 /* Info.plist */,
+			);
+			path = EasyCartographyUITests;
+			sourceTree = "<group>";
+		};
+		55A57D07217E1B3100408EB4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				55A57D08217E1B4A00408EB4 /* UIView+EasyCartography.swift */,
+				55A57D0A217E1B9F00408EB4 /* ViewConstraintProtocol.swift */,
+				55A57D0C217E1C7200408EB4 /* ViewConstraint.swift */,
+				55A57D0E217E1DC200408EB4 /* Center.swift */,
+				55A57D10217E207200408EB4 /* Left.swift */,
+				55A57D12217E20A600408EB4 /* Right.swift */,
+				55A57D14217E20D900408EB4 /* Bottom.swift */,
+				55A57D16217E20F300408EB4 /* Top.swift */,
+				55A57D18217E211100408EB4 /* BottomTop.swift */,
+				55A57D1A217E211A00408EB4 /* TopBottom.swift */,
+				55A57D1C217E212000408EB4 /* LeftRight.swift */,
+				55A57D1E217E212600408EB4 /* RightLeft.swift */,
+				55A57D20217E23A800408EB4 /* Width.swift */,
+				55A57D22217E23B000408EB4 /* Height.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E470D3FE289D6F2A5A769690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279643F9A91715B9C0F2D502 /* Pods_EasyCartography.framework */,
+				7C235466E340D4017B89456A /* Pods_EasyCartographyTests.framework */,
+				43FC7C39099C15D32A9637AA /* Pods_EasyCartographyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC17153DF930FA2203C916D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9792841A9D3A32625D9858D /* Pods-EasyCartography.debug.xcconfig */,
+				2D2ADDD80D3831C9227FEFCE /* Pods-EasyCartography.release.xcconfig */,
+				090545015B5533179B3B4008 /* Pods-EasyCartographyTests.debug.xcconfig */,
+				0041EF1370FB731FE4D6FC5E /* Pods-EasyCartographyTests.release.xcconfig */,
+				446C817A8176E337291C5EAD /* Pods-EasyCartographyUITests.debug.xcconfig */,
+				61DB6A52447A95CD78C185B7 /* Pods-EasyCartographyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A57CD3217E1AA600408EB4 /* EasyCartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A57CFC217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartography" */;
+			buildPhases = (
+				3BED218B92E7C98A1152D3F8 /* [CP] Check Pods Manifest.lock */,
+				55A57CD0217E1AA600408EB4 /* Sources */,
+				55A57CD1217E1AA600408EB4 /* Frameworks */,
+				55A57CD2217E1AA600408EB4 /* Resources */,
+				E31973C8E566AA1AC85B907A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyCartography;
+			productName = EasyCartography;
+			productReference = 55A57CD4217E1AA600408EB4 /* EasyCartography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A57CE7217E1AA900408EB4 /* EasyCartographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A57CFF217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartographyTests" */;
+			buildPhases = (
+				02742FBCE11BC3FE348C39B4 /* [CP] Check Pods Manifest.lock */,
+				55A57CE4217E1AA900408EB4 /* Sources */,
+				55A57CE5217E1AA900408EB4 /* Frameworks */,
+				55A57CE6217E1AA900408EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A57CEA217E1AA900408EB4 /* PBXTargetDependency */,
+			);
+			name = EasyCartographyTests;
+			productName = EasyCartographyTests;
+			productReference = 55A57CE8217E1AA900408EB4 /* EasyCartographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55A57CF2217E1AA900408EB4 /* EasyCartographyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A57D02217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartographyUITests" */;
+			buildPhases = (
+				C5D040231435F43CF1D16290 /* [CP] Check Pods Manifest.lock */,
+				55A57CEF217E1AA900408EB4 /* Sources */,
+				55A57CF0217E1AA900408EB4 /* Frameworks */,
+				55A57CF1217E1AA900408EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A57CF5217E1AA900408EB4 /* PBXTargetDependency */,
+			);
+			name = EasyCartographyUITests;
+			productName = EasyCartographyUITests;
+			productReference = 55A57CF3217E1AA900408EB4 /* EasyCartographyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A57CCC217E1AA600408EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Bassem Qoulta";
+				TargetAttributes = {
+					55A57CD3217E1AA600408EB4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					55A57CE7217E1AA900408EB4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55A57CD3217E1AA600408EB4;
+					};
+					55A57CF2217E1AA900408EB4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55A57CD3217E1AA600408EB4;
+					};
+				};
+			};
+			buildConfigurationList = 55A57CCF217E1AA600408EB4 /* Build configuration list for PBXProject "EasyCartography" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A57CCB217E1AA600408EB4;
+			productRefGroup = 55A57CD5217E1AA600408EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A57CD3217E1AA600408EB4 /* EasyCartography */,
+				55A57CE7217E1AA900408EB4 /* EasyCartographyTests */,
+				55A57CF2217E1AA900408EB4 /* EasyCartographyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A57CD2217E1AA600408EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A57CE2217E1AA900408EB4 /* LaunchScreen.storyboard in Resources */,
+				55A57CDF217E1AA900408EB4 /* Assets.xcassets in Resources */,
+				55A57CDD217E1AA600408EB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CE6217E1AA900408EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CF1217E1AA900408EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02742FBCE11BC3FE348C39B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyCartographyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BED218B92E7C98A1152D3F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyCartography-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D040231435F43CF1D16290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyCartographyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31973C8E566AA1AC85B907A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyCartography/Pods-EasyCartography-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyCartography/Pods-EasyCartography-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A57CD0217E1AA600408EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A57D23217E23B000408EB4 /* Height.swift in Sources */,
+				55A57D19217E211100408EB4 /* BottomTop.swift in Sources */,
+				55A57D1F217E212600408EB4 /* RightLeft.swift in Sources */,
+				55A57CDA217E1AA600408EB4 /* ViewController.swift in Sources */,
+				55A57D21217E23A800408EB4 /* Width.swift in Sources */,
+				55A57D11217E207200408EB4 /* Left.swift in Sources */,
+				55A57CD8217E1AA600408EB4 /* AppDelegate.swift in Sources */,
+				55A57D0D217E1C7200408EB4 /* ViewConstraint.swift in Sources */,
+				55A57D13217E20A600408EB4 /* Right.swift in Sources */,
+				55A57D09217E1B4A00408EB4 /* UIView+EasyCartography.swift in Sources */,
+				55A57D0F217E1DC200408EB4 /* Center.swift in Sources */,
+				55A57D17217E20F300408EB4 /* Top.swift in Sources */,
+				55A57D0B217E1B9F00408EB4 /* ViewConstraintProtocol.swift in Sources */,
+				55A57D1B217E211A00408EB4 /* TopBottom.swift in Sources */,
+				55A57D1D217E212000408EB4 /* LeftRight.swift in Sources */,
+				55A57D15217E20D900408EB4 /* Bottom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CE4217E1AA900408EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A57CED217E1AA900408EB4 /* EasyCartographyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A57CEF217E1AA900408EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A57CF8217E1AA900408EB4 /* EasyCartographyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A57CEA217E1AA900408EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A57CD3217E1AA600408EB4 /* EasyCartography */;
+			targetProxy = 55A57CE9217E1AA900408EB4 /* PBXContainerItemProxy */;
+		};
+		55A57CF5217E1AA900408EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A57CD3217E1AA600408EB4 /* EasyCartography */;
+			targetProxy = 55A57CF4217E1AA900408EB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A57CDB217E1AA600408EB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A57CDC217E1AA600408EB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A57CE0217E1AA900408EB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A57CE1217E1AA900408EB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A57CFA217E1AA900408EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55A57CFB217E1AA900408EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A57CFD217E1AA900408EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9792841A9D3A32625D9858D /* Pods-EasyCartography.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55A57CFE217E1AA900408EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2ADDD80D3831C9227FEFCE /* Pods-EasyCartography.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55A57D00217E1AA900408EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090545015B5533179B3B4008 /* Pods-EasyCartographyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartographyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCartography.app/EasyCartography";
+			};
+			name = Debug;
+		};
+		55A57D01217E1AA900408EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0041EF1370FB731FE4D6FC5E /* Pods-EasyCartographyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartographyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCartography.app/EasyCartography";
+			};
+			name = Release;
+		};
+		55A57D03217E1AA900408EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446C817A8176E337291C5EAD /* Pods-EasyCartographyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartographyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartographyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyCartography;
+			};
+			name = Debug;
+		};
+		55A57D04217E1AA900408EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DB6A52447A95CD78C185B7 /* Pods-EasyCartographyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyCartographyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.EasyCartographyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyCartography;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A57CCF217E1AA600408EB4 /* Build configuration list for PBXProject "EasyCartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A57CFA217E1AA900408EB4 /* Debug */,
+				55A57CFB217E1AA900408EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A57CFC217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A57CFD217E1AA900408EB4 /* Debug */,
+				55A57CFE217E1AA900408EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A57CFF217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A57D00217E1AA900408EB4 /* Debug */,
+				55A57D01217E1AA900408EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A57D02217E1AA900408EB4 /* Build configuration list for PBXNativeTarget "EasyCartographyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A57D03217E1AA900408EB4 /* Debug */,
+				55A57D04217E1AA900408EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A57CCC217E1AA600408EB4 /* Project object */;
+}
