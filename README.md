@@ -22,7 +22,7 @@ constrain(view, self) { view, superView in
 }
 ````
 
-buy by easyCartography, you can write this syntax:
+but by easyCartography, you can write this syntax:
 ````Swift
 view.center(in: self)
 ````
