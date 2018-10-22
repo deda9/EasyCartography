@@ -27,15 +27,28 @@ buy by easyCartography, you can write this syntax:
 view.center(in: self)
 ````
 
-and soon
+Cartography
 
 ````Swift
 constrain(view, self) { view, superView in
-    view.lef == superView.lef + 20
+    view.left == superView.left + 20
 }
 ````
 
-to 
+EasyCartography 
 ````Swift
 view.left(of: self, offset: 20)
+````
+
+Cartography
+
+````Swift
+constrain(view, button) { view, button in
+    view.centerX == button.centerX + 20
+}
+````
+
+EasyCartography 
+````Swift
+view.centerX(of: button, offset: 20)
 ````
