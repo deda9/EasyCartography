@@ -50,5 +50,5 @@ constrain(view, button) { view, button in
 
 EasyCartography 
 ````Swift
-view.centerX(of: button, offset: 20)
+view.centerX(in: button, offset: 20)
 ````
